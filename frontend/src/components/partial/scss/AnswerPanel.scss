@@ -1,0 +1,26 @@
+.answer {
+  margin: 0.5rem;
+  padding: 1rem;
+  border: none;
+  background-color: rgb(28, 100, 76);
+  border-radius: 20rem;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: rgb(70, 204, 153);
+  }
+
+  &__title {
+    font-size: 1.1em;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-top: 0.2rem;
+  }
+}
